@@ -4,9 +4,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import time
 import json
+import os
 
 
 def disparar_mensagem(mensagem):
+    os.chmod('envio_mensagem_whatsapp', 755)
     driver = webdriver.Chrome(executable_path='envio_mensagem_whatsapp/chromedriver.exe')
     driver.get("https://web.whatsapp.com/")
     wait = WebDriverWait(driver, 20)
@@ -26,16 +28,12 @@ def disparar_mensagem(mensagem):
     # Limpa a caixa de busca se estiver preenchida
     person_title.clear()
 
-    # Iterate excel rows till to finish
     for contato in contatos['Nome']:
         # busca pelo contato
         person_title.send_keys(contatos['Nome'][str(contato)])
-
-        # Wait for 3 seconds to search contact number
         time.sleep(3)
 
         try:
-            # Load error message in case unavailability of contact number
             element = driver.find_element_by_xpath('//*[@id="pane-side"]/div[1]/div/span')
         except NoSuchElementException:
             person_title.send_keys(Keys.ENTER)
@@ -49,5 +47,4 @@ def disparar_mensagem(mensagem):
                     input_texto.send_keys(Keys.SHIFT, '\n')
             input_texto.send_keys(Keys.ENTER)
 
-    # Close Chrome browser
     driver.quit()
