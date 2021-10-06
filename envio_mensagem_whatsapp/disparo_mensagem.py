@@ -10,12 +10,17 @@ CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
 
 
 def disparar_mensagem(mensagem):
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.binary_location = GOOGLE_CHROME_PATH
+    # Para rodar no linux
+    # chrome_options = webdriver.ChromeOptions()
+    # chrome_options.add_argument('--disable-gpu')
+    # chrome_options.add_argument('--no-sandbox')
+    # chrome_options.binary_location = GOOGLE_CHROME_PATH
+    # driver = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
 
-    driver = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+    # Para rodar no windows
+    driver = webdriver.Chrome(execution_path='envio_mensagem_whatsapp/chromedriver.exe')
+
+    # Abrir o Whatsapp
     driver.get("https://web.whatsapp.com/")
     wait = WebDriverWait(driver, 20)
 
