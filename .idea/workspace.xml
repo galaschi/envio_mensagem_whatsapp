@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f41ad6e-5e4a-481b-9649-597f1333349b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/envio_mensagem_whatsapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/envio_mensagem_whatsapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="221">
+              <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633533596571</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajustes para subir no heroku">
+      <created>1633534016430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633534016430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -476,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

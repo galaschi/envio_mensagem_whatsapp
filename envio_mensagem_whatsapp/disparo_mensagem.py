@@ -4,12 +4,18 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import time
 import json
-import os
+
+GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
+CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
 
 
 def disparar_mensagem(mensagem):
-    os.chmod('envio_mensagem_whatsapp', 755)
-    driver = webdriver.Chrome(executable_path='envio_mensagem_whatsapp/chromedriver.exe')
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.binary_location = GOOGLE_CHROME_PATH
+
+    driver = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
     driver.get("https://web.whatsapp.com/")
     wait = WebDriverWait(driver, 20)
 
