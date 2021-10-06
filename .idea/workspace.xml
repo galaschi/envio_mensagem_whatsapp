@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f41ad6e-5e4a-481b-9649-597f1333349b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envio_mensagem_whatsapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/envio_mensagem_whatsapp/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="425">
+              <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
               <folding>
                 <element signature="e#440#470#0" expanded="true" />
               </folding>
@@ -84,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/envio_mensagem_whatsapp/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="238">
+              <caret line="14" column="110" selection-start-line="14" selection-start-column="110" selection-end-line="14" selection-end-column="110" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -115,7 +116,6 @@
         <option value="$PROJECT_DIR$/teste.py" />
         <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/envio_mensagem.py" />
         <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/contatos/importar_contatos.py" />
-        <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/templates/home.html" />
         <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/routes.py" />
         <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/.gitgnore" />
         <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/Procfile" />
@@ -123,6 +123,7 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/__init__.py" />
         <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py" />
+        <option value="$PROJECT_DIR$/envio_mensagem_whatsapp/templates/home.html" />
       </list>
     </option>
   </component>
@@ -163,6 +164,12 @@
               <item name="envio-menssagem-whatsapp" type="462c0819:PsiDirectoryNode" />
               <item name="envio_mensagem_whatsapp" type="462c0819:PsiDirectoryNode" />
               <item name="contatos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="envio-menssagem-whatsapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="envio-menssagem-whatsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="envio_mensagem_whatsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,19 +321,26 @@
       <option name="project" value="LOCAL" />
       <updated>1633539232828</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajustes para rodar o chromedriver no heroku">
+      <created>1633540114053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633540114053</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,16 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/envio_mensagem_whatsapp/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -497,10 +501,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/envio_mensagem_whatsapp/disparo_mensagem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="58" column="45" lean-forward="true" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
           <folding>
             <element signature="e#440#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/envio_mensagem_whatsapp/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="110" selection-start-line="14" selection-start-column="110" selection-end-line="14" selection-end-column="110" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

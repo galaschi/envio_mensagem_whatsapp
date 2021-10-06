@@ -5,20 +5,20 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 import json
 
-GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
-CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
+# GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
+# CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
 
 
 def disparar_mensagem(mensagem):
     # Para rodar no linux
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.binary_location = GOOGLE_CHROME_PATH
-    driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+    # chrome_options = webdriver.ChromeOptions()
+    # chrome_options.add_argument('--disable-gpu')
+    # chrome_options.add_argument('--no-sandbox')
+    # chrome_options.binary_location = GOOGLE_CHROME_PATH
+    # driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
 
     # Para rodar no windows
-    # driver = webdriver.Chrome(executable_path='envio_mensagem_whatsapp/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='envio_mensagem_whatsapp/chromedriver.exe')
 
     # Abrir o Whatsapp
     driver.get("https://web.whatsapp.com/")
